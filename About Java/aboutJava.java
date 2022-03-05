@@ -69,7 +69,23 @@ class product {
     n2 = res.nextDouble();
     res.close();
     pro = n1 * n2;
-    System.out.println("Product is :"+pro);
+    System.out.println("Product is :" + pro);
+
+  }
+}
+
+// arrays program
+class array {
+  public static void main(String[] args) {
+    // creating an array
+    int[] age = { 12, 45, 30, 22, 56 };
+
+    System.out.println("Accesing the elements of array:");
+    System.out.println("FIrst element:" + age[0]);
+    System.out.println("FIrst element:" + age[1]);
+    System.out.println("FIrst element:" + age[2]);
+    System.out.println("FIrst element:" + age[3]);
+    System.out.println("FIrst element:" + age[4]);
 
   }
 }
